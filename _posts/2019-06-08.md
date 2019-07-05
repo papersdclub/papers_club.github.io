@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Ana
+title: First Paper Selected!
 ---
 
 We have selected the first paper for reading. And the winner is ["A Tutorial on Principal Component Analysis"](https://arxiv.org/pdf/1404.1100.pdf).
