@@ -18,9 +18,8 @@ title: Papers Reading Club
 <ul>
   {% for post in paginator.posts %}
     <li>
-      <h2>{{ post.date | date_to_string }}, {{ post.title }} </h2>
-      <p>{{ post.content }}</p>
-      <p><a href="{{ post.url }}">Read more...</a></p>
+      <h2><a href="{{ post.url }}">{{ post.date | date_to_string }}</a> </h2>
+      <p>{{ post.content }}</p>      
     </li>
   {% endfor %}
 </ul>
