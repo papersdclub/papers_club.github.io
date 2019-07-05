@@ -5,3 +5,7 @@ layout: default
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 {{ content }}
+
+<div class="notecomments">
+  {% include disqus.html %}	 
+</div>
