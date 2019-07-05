@@ -6,7 +6,8 @@ comments: true
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 {{ content }}
-
+{% if page.comments %}
 <div class="notecomments">
   {% include disqus.html %}	 
 </div>
+(% endif %}
