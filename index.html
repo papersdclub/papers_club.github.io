@@ -3,4 +3,11 @@ layout: default
 title: Papers Reading Club
 ---
 <h1>Welcome to the Papers Club</h1>
-<p>Great things to follow</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
