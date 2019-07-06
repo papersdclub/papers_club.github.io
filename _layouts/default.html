@@ -6,21 +6,31 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+        .nav_header {color: #FDFDFB; padding: 0px 0px 0px 0px;margin: 10px 10px 10px 0px;}
+        .nav_item {text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;padding: 2px 2px 2px 12px;font-weight: bold;height: 30px;}
+</style>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1 class="header"><a href="/">Papers Club</a></h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-
+        <h3 class="header nav_header">Current Reading</h3>
         <ul>         
-            <li class="download"><a class="buttons" href="https://arxiv.org/pdf/1712.07557.pdf">Current Paper</a></li>
-            <li class="download"><a class="buttons" href="https://www.surveymonkey.com/r/2ZN8NGC">Current Quiz</a></li>                   
+            <li><a class="nav_item" href="https://arxiv.org/pdf/1712.07557.pdf">Paper</a></li>
+            <li><a class="nav_item" href="https://www.surveymonkey.com/r/2ZN8NGC">Quiz</a></li>                             
+        </ul>
+        <h3 class="header nav_header">Navigation</h3>
+        <ul>
+          <li><a class="nav_item" href="/implementation.html">Implementation</a></li>
+          <li><a class="nav_item" href="/how_to_join.html">Club Code</a></li>
         </ul>
 
       </header>
