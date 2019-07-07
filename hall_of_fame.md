@@ -13,13 +13,13 @@ Here we will publish the name of the heroes who scored 90% or above on the quiz.
 
 Great job, guys! That was not an easy paper to read! 
 
-| Member       | Score   | 
+| Member (Slack handle)      | 
 |:-------------|:------------------|
-| Dharmendra Choudhary           | 10/10 |
-| Maria | 10/10  |
-| Agata          | 9/10     |
-| anjishnu           | 9/10  |
-| sourav kumar | 9/10 |
+| Maria |
+| Dharmendra Choudhary           | 
+| Agata          | 
+| anjishnu           | 
+| sourav kumar |
 
 ### Results Distribution
 
