@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Implementation Guidelines
+title: Hall of Fame
 ---
 
 # Welcome to our hall of fame! 
