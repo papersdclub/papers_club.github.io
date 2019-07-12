@@ -12,5 +12,7 @@ If you have completed reading the first paper (or decided not to complete it at 
 
 ## Quizzes
 
-- [Quiz 1](https://www.surveymonkey.com/r/RV3SDRC) (PCA)
-- [Quiz 2](https://www.surveymonkey.com/r/2ZN8NGC) (Differentially Private Federated Learning: A Client Level Perspective)
+- [Quiz 1](https://www.surveymonkey.com/r/RV3SDRC) (PCA) 
+- [Quiz 2](https://www.surveymonkey.com/r/2ZN8NGC) (Differentially Private Federated Learning: A Client Level Perspective) 
+- [Quiz 3](https://www.surveymonkey.com/r/93C8RHQ) (Generative Adversarial Networks)
+
